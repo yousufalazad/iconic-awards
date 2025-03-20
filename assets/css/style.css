@@ -1,0 +1,284 @@
+:root {
+	--iconic-brand: #0b5ed7;
+	--iconic-brand-light: #e5eef7;
+	--iconic-gold: #F6A81C;
+	--iconic-white: #fff;
+	--iconic-off-white: #F8F9FA;
+	--iconic-black: #000;
+	--iconic-light-black: #575B5E;
+	--iconic-green: #0D9648;
+	--iconic-red: red;
+}
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* In your CSS file or <style> tag in HTML */
+
+/*==============================
+ *========= Global CSS ============
+ *============================*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: var(--iconic-light-black);
+	/* background-color: var(--iconic-brand); */
+}
+
+p {}
+
+a {
+	text-decoration: none;
+	color: var(--iconic-light-black);
+}
+
+h1 {
+	font-size: 40pt;
+	font-weight: 700;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.section_title {
+	color: var(--iconic-light-black);
+	font-weight: bold;
+	font-size: 37px !important;
+	text-align: center;
+}
+
+.sub_section_title {
+	color: var(--iconic-light-black);
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn-outline-primary {
+	color: var(--iconic-light-black);
+	font-size: 19px;
+	--bs-btn-color: var(--iconic-brand);
+	--bs-btn-border-color: var(--iconic-light-black);
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: var(--iconic-brand);
+	--bs-btn-hover-border-color: var(--iconic-brand);
+	--bs-btn-focus-shadow-rgb: 13, 110, 253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: var(--iconic-brand);
+	--bs-btn-active-border-color: var(--iconic-brand);
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: var(--iconic-brand);
+	--bs-btn-disabled-bg: transparent;
+	--bs-btn-disabled-border-color: var(--iconic-brand);
+	--bs-gradient: none;
+}
+
+.btn-primary {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: var(--iconic-brand);
+	--bs-btn-border-color: var(--iconic-brand);
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #0b5ed7;
+	--bs-btn-hover-border-color: #0a58ca;
+	--bs-btn-focus-shadow-rgb: 49, 132, 253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #0a58ca;
+	--bs-btn-active-border-color: #0a53be;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: var(--iconic-brand);
+	--bs-btn-disabled-border-color: var(--iconic-brand);
+}
+
+/*-------------------------------- navbar--------------*/
+.navbar {
+	/* background-color: var(--iconic-brand) !important; */
+	background-color: var(--iconic-white) !important;
+	
+}
+
+/*-------------------------------- All Pages Breadcrumb --------------*/
+.page_breadcrumb {
+	background: url('../../assets/images/page_breadcrumb.png') no-repeat center center;
+	background-size: cover;
+	padding: 20px 0;
+	text-align: center;
+	color: var(--iconic-off-white);
+	/* font-size: 20px; */
+	font-weight: bold;
+	position: relative;
+}
+
+.page_breadcrumb::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	/* Dark overlay for better text visibility */
+}
+
+.page_breadcrumb h1 {
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: var(--iconic-off-white);
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.breadcrumb-item {
+	position: relative;
+	z-index: 2;
+	font-size: 12px !important;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	float: left;
+	padding-right: var(--bs-breadcrumb-item-padding-x);
+	color: var(--iconic-off-white) !important;
+	content: var(--bs-breadcrumb-divider, "/");
+}
+
+.breadcrumb-item.active {
+	color: var(--iconic-brand);
+}
+
+.breadcrumb-item a {
+	color: var(--iconic-off-white);
+}
+/*-------------------------------- nomination Pages  --------------*/
+
+
+/*-------------------------------- panel Pages  --------------*/
+
+.panel .card {
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 380px; /* Ensures equal height */
+    display: flex;
+    flex-direction: column;
+}
+
+.panel .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.panel .card-body {
+    flex-grow: 1; /* Makes sure all cards are the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.panel .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.panel .card-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.panel .card-text i {
+    color: #007bff;
+    margin-right: 5px;
+}
+/*-------------------------------- Contact Pages  --------------*/
+.contact h4 {
+	color: var(--iconic-light-black);
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.footer {
+	background-color: #0A0A23;
+	padding: 40px 0;
+}
+
+.footer-title {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.footer-subtitle {
+	font-size: 14px;
+	color: #B0B0B0;
+}
+
+.footer-links {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-links li {
+	margin-bottom: 5px;
+}
+
+.footer-links a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.footer-links a:hover {
+	color: #ff5722;
+}
+
+.footer-text {
+	font-size: 14px;
+	color: #B0B0B0;
+}
+
+.sponsor {
+	font-size: 20px;
+}
+
+.copyright,
+.terms {
+	font-size: 12px;
+	color: #B0B0B0;
+}
+
+.terms a {
+	color: white;
+	text-decoration: none;
+}
+
+.terms a:hover {
+	color: #ff5722;
+}
+
+.social-icon {
+	color: white;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.social-icon:hover {
+	color: #ff5722;
+}
+
+.made-by {
+	font-size: 14px;
+	color: #B0B0B0;
+}
