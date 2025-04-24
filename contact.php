@@ -16,34 +16,80 @@
         </div>
     </div>
     <!-- About Section -->
-    <section id="contact" class="section-padding">
+    <section id="contact">
         <div class="contact">
             <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold mb-3">Contact Us</h2>
+                    <p class="fs-5">For any inquiries related to the International Iconic Leadership Award Australia 2025 — including nominations, participation, or sponsorship — feel free to contact our team.</p>
+                </div>
+
                 <div class="row">
-                    <div class="col-md-5 col-12">
-                        <h4>Australia </h4>
-                        <div class="">
-                            <p class="me-auto"> <i class="fas fa-map-marker-alt"></i>
-                                <!-- <span style="font-weight: bolder;">Operating Address</span> <br> -->
-                                House# 22, Road# 8, Block: C, <br> Section: 13, Sydney, Australia </p>
-                            <!-- <p class="pe-5"> <i class="fas fa-map-marked"></i> <span style="font-weight: bolder;">Register Address</span> <br> House# 28, Road# 7, Block: C, <br> Banasree, Rampura, Dhaka-1219</p> -->
+                    <!-- 1st Column -->
+                    <div class="col-md-4 col-12">
+                        <h4 style="color: var(--iconic-gold);">Event</h4>
+                        <div>
+                            <p><strong>International Iconic Leadership Award Australia</strong></p>
+                            <p><i class="fas fa-globe"></i> Website: <a href="https://www.iconicawards.au" target="_blank">www.iconicawards.au</a></p>
+                            <p><i class="fab fa-facebook"></i> Facebook: <a href="https://www.facebook.com/share/1AMeZ95s2N/?mibextid=wwXIfr" target="_blank">Visit Page</a></p>
                         </div>
-                        <ul>
-                            <li><a> <i class="fas fa-phone-square-alt"></i> +88 01705 43 36 54</a></li>
-                            <li><a> <i class="fas fa-phone-square-alt"></i> +88 01798 66 99 99</a></li>
-                            <li><a> <i class="fas fa-envelope"></i> info [@] iconicawards.com</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-7 col-12">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1237514968425!2d90.41270477410139!3d23.77860718769523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bae407ee9b%3A0xd624b9d16b4005fe!2sAzoncode%20Ltd.!5e0!3m2!1sen!2sbd!4v1704921685915!5m2!1sen!2sbd"
-                            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
+                    <!-- 2nd Column -->
+                    <div class="col-md-4 col-12">
+                        <h4 style="color: var(--iconic-gold);">Organiser</h4>
+                        <div>
+                            <p><strong>Iconic Trade Australia</strong></p>
+                            <p><i class="fas fa-globe"></i> Website: <a href="https://www.iconictrade.au" target="_blank">www.iconictrade.au</a></p>
+                            <p><i class="fab fa-facebook"></i> Facebook: <a href="https://www.facebook.com/share/15wB7x3H6X/?mibextid=wwXIfr" target="_blank">Visit Page</a></p>
+                        </div>
+                    </div>
+
+                    <!-- 3rd Column -->
+                    <div class="col-md-4 col-12">
+                        <h4 style="color: var(--iconic-gold);"> Office</h4>
+                        <div>
+                            <p><strong>Australia Office Representative</strong></p>
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:info@iconicawards.au">info@iconicawards.au</a></p>
+                            <p><i class="fas fa-phone-square-alt"></i> <a href="tel:+61430912787">+61 430 912 787</a></p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
+    </section>
+
+    <section>
+        <div class="container mb-5">
+            <h2 class="text-center fw-bold mb-5" style="color: var(--iconic-gold);">Send Us A Message</h2>
+            <form class="bg-light p-4 rounded shadow-sm" style="max-width: 700px; margin: auto;">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input type="text" id="first_name" name="first_name" class="form-control" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" class="form-control" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary px-4 py-2 mt-3">
+                            <i class="fas fa-paper-plane me-2"></i>Send Message
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
     </section>
 
     <!---------------- Bottom Section ------------------>

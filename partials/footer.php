@@ -1,49 +1,48 @@
 <footer class="footer">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-12">
-                <h5 class="footer-title">ICONIC AWARDS ENDODONTIC CONFEDERATION</h5>
-                <p class="footer-subtitle">DHAKA | 2025</p>
+            <div class="col-md-12 text-center text-md-start">
+                <h5 class="footer-title">INTERNATIONAL ICONIC LEADERSHIP AWARDS</h5>
+                <p class="footer-subtitle">AUSTRALIA | 19th September 2025</p>
             </div>
         </div>
         <div class="row align-items-center">
             <!-- Left Side: Organization Info -->
-            <div class="col-md-4">
-                <ul class="footer-links">
-                    <li><a href="#">ORGANIZER</a></li>
-                    <li><a href="#">DISCOVER</a></li>
-                </ul>
+            <div class="col-md-3 text-center text-md-start">
+                <img src="assets/images/logo.png" class="img-fluid" style="width: 150px;" alt="INTERNATIONAL ICONIC LEADERSHIP AWARDS 2025">
             </div>
 
             <!-- Middle: Links -->
-            <div class="col-md-4 text-md-start">
+            <!-- Middle: Links -->
+            <div class="col-md-3 pt-5 pt-md-0 text-center text-md-start">
                 <ul class="footer-links">
-                    <li><a href="#">REGISTER</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3  pb-3 pb-md-0 text-center text-md-start">
+                <ul class="footer-links">
+                    <li><a href="#">Award</a></li>
+                    <li><a href="#">Nomination</a></li>
                 </ul>
             </div>
 
             <!-- Right Side: Sponsor & Social -->
-            <div class="col-md-4 text-md-end">
-                <p class="footer-text">Title Sponsor:</p>
-                <p class="sponsor"> <span class="text-danger fw-bold">Medi</span><span class="text-white fw-bold">plus</span></p>
+            <div class="col-md-3 text-center text-md-end ">
+                <img src="assets/images/iconic-trade-logo.png" class="img-fluid" style="width: 230px;" alt="INTERNATIONAL ICONIC LEADERSHIP AWARDS 2025">
+
+
             </div>
         </div>
 
         <!-- Bottom Row -->
         <div class="row mt-3">
-            <div class="col-md-4">
-                <p class="copyright">© Copyright | ICONIC AWARDS ALL RIGHTS RESERVED</p>
+            <div class="col-md-6 text-center text-md-start">
+                <p class="copyright">© Copyright | Iconic Trade, All Right Reserved</p>
             </div>
-            <div class="col-md-2 text-md-start">
-                <p class="terms"><a href="#">TERMS & CONDITIONS</a></p>
-            </div>
-            <div class="col-md-2 text-md-start">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-            </div>
-            <div class="col-md-4 text-md-end">
-                <p class="made-by">MADE WITH <i class="fas fa-heart text-danger"></i> BY <span class="text-primary">Azoncode Ltd.</span></p>
+
+            <div class="col-md-6 text-center text-md-end">
+                <p class="made-by">Developed by <span class="">Azoncode Ltd.</span></p>
             </div>
         </div>
     </div>

@@ -16,7 +16,7 @@
 </div>
 
 <!-- About Section -->
-<section id="about" class="section-padding">
+<section id="about">
     <div class="container">
         <div class="row align-items-center">
             <!-- About Image -->
@@ -25,59 +25,59 @@
             </div>
             <!-- About Content -->
             <div class="col-md-6">
-                <h2 class="fw-bold mb-4">Empowering Global Growth & Innovation</h2>
-                <p class="text-muted">
-                    ICONIC AWARDS 2025 is more than a conference; it is a **global movement** bringing together
-                    visionaries, policymakers, and industry leaders to shape the future of international
-                    trade, sustainable development, and economic collaboration.
+                <h2 class="section-title">About Us</h2>
+                <p style="text-align: justify;">
+                    <strong>Welcome to Iconic Awards — Recognising Leadership, Elevating Futures</strong><br>
+                    Proudly presented by <strong>Iconic Trade Australia</strong>, a trusted Australian event organisation with a remarkable legacy of delivering impactful, community-focused experiences, the <strong>Iconic Awards Australia</strong> is the new home of one of the most distinguished honours in business and leadership—the <strong>International Iconic Leadership Awards Australia</strong>.
                 </p>
-                <!-- <p class="text-muted">
-                        With a strong focus on **innovation, entrepreneurship, and policy transformation**, 
-                        ICONIC AWARDS 2025 Australia serves as a dynamic platform where ideas meet action, driving global 
-                        progress across industries.
-                    </p> -->
+
                 <ul class="list-unstyled">
-                    <li><i class="fas fa-check-circle text-success"></i> Engage with world-class speakers</li>
-                    <li><i class="fas fa-check-circle text-success"></i> Experience cutting-edge technology & insights</li>
-                    <li><i class="fas fa-check-circle text-success"></i> Expand your global business network</li>
-                    <li><i class="fas fa-check-circle text-success"></i> Drive economic & social impact</li>
+                    <li><i class="fas fa-check-circle text-success"></i> Celebrating visionary leaders across industries</li>
+                    <li><i class="fas fa-check-circle text-success"></i> Recognising social impact and innovation</li>
+                    <li><i class="fas fa-check-circle text-success"></i> Fostering inclusivity and multicultural engagement</li>
+                    <li><i class="fas fa-check-circle text-success"></i> Creating meaningful visibility and legacy</li>
                 </ul>
-                <a href="contact.php" class="btn btn-primary mt-3">Join the Movement</a>
+                <!-- <a href="contact.php" class="btn btn-warning mt-3">Join the Movement</a> -->
             </div>
         </div>
     </div>
 </section>
 
-<!-- Our Mission Section -->
-<section id="mission" class="section-padding bg-light">
-    <div class="container text-center">
-        <h2 class="fw-bold">Our Mission</h2>
-        <p class="text-muted mx-auto w-75">
-            At ICONIC AWARDS 2025, we aim to **bridge economies, foster innovation, and create a sustainable future**.
-            Our mission is to empower businesses, governments, and individuals to collaborate for
-            long-term economic resilience.
-        </p>
-    </div>
-</section>
-
-<!-- Key Highlights -->
-<section id="highlights" class="section-padding">
+<!-- Vision Section -->
+<section id="vision" class="pt-0 mt-0">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <i class="fa-solid fa-users fa-3x text-primary"></i>
-                <h4 class="mt-3">Global Collaboration</h4>
-                <p class="text-muted">Connecting thought leaders, entrepreneurs, and policymakers from around the world.</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa-solid fa-lightbulb fa-3x text-warning"></i>
-                <h4 class="mt-3">Innovation & Strategy</h4>
-                <p class="text-muted">Exploring cutting-edge solutions to address global economic challenges.</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa-solid fa-handshake fa-3x text-success"></i>
-                <h4 class="mt-3">Economic Growth</h4>
-                <p class="text-muted">Driving sustainable progress through business and government initiatives.</p>
+        <div class="row align-items-center">
+            <!-- Content -->
+            <div class="col-md-12 text-left">
+                <p style="text-align: justify;">
+                    In 2025, for the first time in Australia, we bring this prestigious platform to life — recognising excellence, innovation, and social impact across industries and communities, both locally and globally.
+                    From influential entrepreneurs and visionary professionals to emerging changemakers, we celebrate those who lead with purpose and empower others through their work.
+                </p>
+                <!-- <h2 class="fw-bold mb-4">Our Values & Vision</h2> -->
+                <p style="text-align: justify;">
+                    What sets Iconic Awards apart is not just our vision
+                    but our team. Behind this initiative is an exceptional
+                    team of experienced professionals, deeply
+                    connected to multicultural communities, industry
+                    leaders, and government partners across Victoria
+                    and beyond. With a commitment to integrity,
+                    inclusion, and excellence, we ensure every
+                    recognition carries real meaning and long-term
+                    impact.
+                </p>
+                <p style="text-align: justify;">
+                    Through a grand awards gala, public recognition, and
+                    meaningful partnerships, the International Iconic
+                    Leadership Awards are more than just a
+                    celebration—they are a platform for visibility,
+                    connection, and legacy.
+                </p>
+                <p style="text-align: justify;" class="fw-semibold mt-4">
+                    We invite you to be part of this journey. <strong>Nominate. Participate. Be Recognised.</strong>
+                </p>
+                <p style="text-align: justify;">
+                    We honour leadership that inspires, and true leadership deserves to be seen.
+                </p>
             </div>
         </div>
     </div>

@@ -15,87 +15,103 @@
     </div>
 </div>
 
-<section id="about" class="section-padding">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- About Image -->
-            <div class="col-md-6">
-                <img src="assets/images/about.jpg" class="img-fluid rounded shadow" alt="About ICONIC AWARDS 2025">
-            </div>
-            <!-- About Content -->
-            <div class="col-md-6">
-                <h2 class="fw-bold mb-4">Nomination Global Growth & Innovation</h2>
-                <p class="text-muted">
-                    ICONIC AWARDS 2025 is more than a conference; it is a **global movement** bringing together
-                    visionaries, policymakers, and industry leaders to shape the future of international
-                    trade, sustainable development, and economic collaboration.
-                </p>
-                <!-- <p class="text-muted">
-                        With a strong focus on **innovation, entrepreneurship, and policy transformation**, 
-                        ICONIC AWARDS 2025 Australia serves as a dynamic platform where ideas meet action, driving global 
-                        progress across industries.
-                    </p> -->
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-check-circle text-success"></i> Engage with world-class speakers</li>
-                    <li><i class="fas fa-check-circle text-success"></i> Experience cutting-edge technology & insights</li>
-                    <li><i class="fas fa-check-circle text-success"></i> Expand your global business network</li>
-                    <li><i class="fas fa-check-circle text-success"></i> Drive economic & social impact</li>
-                </ul>
-                <a href="contact.php" class="btn btn-primary mt-3">Join the Nominate</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Nomination Details Section -->
-<section id="nomination" class="section-padding">
+<section id="nomination" class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Why Nominate?</h2>
-            <p class="text-muted">Honoring the achievements of individuals who contribute to economic growth and innovation.</p>
+            <h2 class="section-title fw-bold mb-3">Call for Nominations !!</h2>
+            <p class="fs-5 ">Nominations are open to both onshore (Australia-based) and offshore (international) applicants.</p>
         </div>
-        <div class="row g-4">
-            <!-- Category 1 -->
-            <div class="col-md-4">
-                <div class="card shadow-sm border-0">
-                    <img src="assets/images/nomination-1.jpg" class="card-img-top" alt="Leadership Excellence">
-                    <div class="card-body text-center">
-                        <h4 class="fw-bold">Leadership Excellence</h4>
-                        <p class="text-muted">Recognizing visionary leaders driving impact in their industries.</p>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <!-- Who Can Apply -->
+                <div class="p-4 card shadow-md rounded-3 h-100">
+                    <h4 class="fw-bold mb-3"><i class="bi bi-person-check-fill me-2 text-primary"></i>Who Can Apply?</h4>
+                    <ul class="mb-3 ps-3 nomination-apply-list">
+                        <li> Business owners, startups, and established enterprises</li>
+                        <li> Entrepreneurs and professionals from all industries</li>
+                        <li> Community leaders making a social or business impact</li>
+                        <li> Self-nominations & third-party nominations welcome</li>
+                        <li> Onshore (Australia-based) & Offshore (International) applicants</li>
+                        <li> Sponsors & guests welcome to attend the grand gala</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Nomination Process -->
+            <div class="row pt-5">
+                <div class="col-md-12 py-3">
+                    <h2 class="section-title text-center fw-bold mb-3">Nomination Process</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-4 card shadow-md rounded-3 h-100">
+                        <h4 class="fw-bold mb-2">Onshore (Australia-Based) Applicants</h4>
+                        <ul class="ps-3 event-details-list">
+                            <li> Must reside in Australia for at least 3 years</li>
+                            <li> Self or third-party nominations accepted</li>
+                            <li> Submit Google Form with leadership documents</li>
+                            <li> Invited nominees attend award ceremony</li>
+                            <li> Guests pay entry & dinner fee</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="p-4 card shadow-md rounded-3 h-100">
+                        <h4 class="fw-bold mb-2">Offshore (International) Applicants</h4>
+                        <ul class="ps-3 event-details-list">
+                            <li> Open to non-Australia residents</li>
+                            <li> Submit Google Form & documents (CV, media, proof)</li>
+                            <li> Invitation letter for successful nominees</li>
+                            <li> Visa support provided</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <!-- Category 2 -->
-            <div class="col-md-4">
-                <div class="card shadow-sm border-0">
-                    <img src="assets/images/nomination-1.jpg" class="card-img-top" alt="Innovation Award">
-                    <div class="card-body text-center">
-                        <h4 class="fw-bold">Innovation & Technology</h4>
-                        <p class="text-muted">Honoring breakthroughs that shape the future of business and society.</p>
+
+
+            <div class="row py-5">
+                <!-- How to Nominate -->
+                <div class="col-md-6">
+                    <div class="p-4 card shadow-md rounded-3 h-100">
+                        <h4 class="fw-bold mb-2">How to Nominate?</h4>
+                        <ul class="ps-3 event-details-list">
+                            <li> Fill Google Form or submit Word/PDF nomination form</li>
+                            <li> Include achievements, stories, documents</li>
+                            <li> Submit by <strong>30 June 2025</strong></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- Application Fee -->
+                <div class="col-md-6">
+                    <div class="p-4 card shadow-md rounded-3 h-100">
+                        <h4 class="fw-bold mb-2">Application Fee for Awardees</h4>
+                        <ul class="ps-3 event-details-list">
+                            <li> No fee to submit nomination</li>
+                            <li> AUD 1000 upon selection as finalist</li>
+                            <li> Includes event entry, award crest, dinner & publication</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <!-- Category 3 -->
-            <div class="col-md-4">
-                <div class="card shadow-sm border-0">
-                    <img src="assets/images/nomination-1.jpg" class="card-img-top" alt="Sustainability Award">
-                    <div class="card-body text-center">
-                        <h4 class="fw-bold">Sustainability & CSR</h4>
-                        <p class="text-muted">Recognizing efforts in environmental and social responsibility.</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
+    </div>
     </div>
 </section>
 
+
 <!-- Hero Section -->
-<section class="text-center text-white py-5" style="background: url('assets/images/banner-1.jpg') center/cover;">
-    <div class="container">
+<section class="position-relative text-center text-white py-5" style="background: url('assets/images/page_breadcrumb-3.jpg') center/cover no-repeat;">
+    <!-- Overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+    <!-- Content -->
+    <div class="container position-relative" style="z-index: 2;">
         <h2 class="fw-bold">Submit Your Nomination Today!</h2>
-        <p class="mt-3">Be part of a prestigious recognition platform.</p>
-        <a href="nominate.php" class="btn btn-primary mt-3">Nominate Now</a>
+        <p class="mt-3 fs-5 fw-bold">Be part of a prestigious recognition platform.</p>
+        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3">Nomination Registration</a>
     </div>
 </section>
+
 
 <?php include 'partials/bottom.php'; ?>
