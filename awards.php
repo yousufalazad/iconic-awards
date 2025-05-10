@@ -24,7 +24,7 @@
             </div>
             <!-- About Content -->
             <div class="col-md-6">
-                <h2 class="section-title text-center fw-bold mb-3">Awards Global Growth & Innovation</h2>
+                <h2 class="section-title text-center fw-bold mb-3  pt-5 pt-md-0">Awards Global Growth & Innovation</h2>
                 <p class="">
                     ICONIC AWARDS 2025 is more than a conference; it is a **global movement** bringing together
                     visionaries, policymakers, and industry leaders to shape the future of international

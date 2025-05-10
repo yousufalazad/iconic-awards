@@ -4,10 +4,10 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary py-1">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" class="img-fluid" style="width: 110px;"
+                    <img src="assets/images/logo.png" class="img-fluid logo"
                         alt="INTERNATIONAL ICONIC LEADERSHIP AWARDS 2025">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" style="">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">

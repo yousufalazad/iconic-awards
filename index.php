@@ -29,6 +29,19 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
     </div>
+    
+    
+        <!-- Hero Section -->
+<section class="position-relative text-center text-white py-5" style="background: url('assets/images/page_breadcrumb-3.jpg') center/cover no-repeat;">
+    <!-- Overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+    <!-- Content -->
+    <div class="container position-relative" style="z-index: 2;">
+        <h2 class="fw-bold">Submit Your Nomination Today!</h2>
+        <p class="mt-3 fs-5 fw-semi-bold">Be part of a prestigious recognition platform.</p>
+        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3 fs-2 px-4" style="color: white; background-color: #ff0b0b !important">Join Now</a>
+    </div>
+</section>
 
     <!-- Section 1: Introduction -->
     <section>
@@ -110,7 +123,7 @@
                     <img src="assets/images/about.jpg" class="img-fluid rounded-3 shadow" alt="About APEC">
                 </div>
                 <div class="col-md-6 text-start">
-                    <h2 class="section-title">About Us</h2>
+                    <h2 class="section-title pt-3 pt-md-0">About Us</h2>
                     <p style="text-align: justify;" class="lead">Welcome to Iconic Awards—Recognising Leadership, Elevating Futures.</p>
                     <p style="text-align: justify;">Proudly presented by Iconic Trade Australia, a trusted
                         Australian event organisation with an incredible
@@ -131,7 +144,7 @@
     <!-- Awards Section -->
     <section>
         <div class="container">
-            <div class="row align-items-center py-5">
+            <div class="row align-items-center py-0 py-md-5">
 
                 <div class="col-md-6">
                     <h2 class="section-title"> Awards 2025</h2>
@@ -146,8 +159,8 @@
                     <p style="text-align: justify;"> Nominate yourself or a deserving business in any of the following categories!</p>
                     <a href="awards.php" class="btn btn-sm btn-warning">View Award Categories</a>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/images/awards.png" class="img-fluid rounded-3 shadow" alt="Awards">
+                <div class="col-md-6 pt-3 pt-md-0">
+                    <img src="assets/images/awards.jpeg" class="img-fluid rounded-3 shadow" alt="Awards">
                 </div>
             </div>
         </div>
@@ -158,18 +171,22 @@
         <div class="container pb-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="assets/images/nomination.jpeg" class="img-fluid rounded-3 shadow" alt="Nomination">
+                    <img src="assets/images/nomination-text.jpg" class="img-fluid rounded-3 shadow" alt="Nomination">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="section-title">Nomination</h2>
+                    <h2 class="section-title pt-3 pt-md-0">Nomination</h2>
                     <p class="mb-3" style="text-align: justify;">
                         Nominate exceptional business leaders, entrepreneurs, and changemakers who drive innovation, impact society, and shape the future. Self and third-party nominations are welcome. Join us for a prestigious gala celebrating leadership and excellence.
                     </p>
 
                     <p><strong>Who Can Apply?</strong></p>
                     <ul class="mb-3 ps-3 nomination-apply-list">
-                        <li>Business owners, startups, and established enterprises</li>
-                        <li>Onshore (Australia-based) and Offshore (International) applicants</li>
+                        <li> Business owners, startups, and established enterprises</li>
+                        <li> Entrepreneurs and professionals from all industries</li>
+                        <li> Community leaders making a social or business impact</li>
+                        <li> Self-nominations & third-party nominations welcome</li>
+                        <li> Onshore (Australia-based) & Offshore (International) applicants</li>
+                        <li> Sponsors & guests welcome to attend the grand gala</li>
                     </ul>
                     <a href="nomination.php" class="btn btn-sm btn-warning">View Nomination Details</a>
                 </div>
@@ -177,6 +194,19 @@
             </div>
         </div>
     </section>
+    
+    <!-- Hero Section -->
+<section class="position-relative text-center text-white py-5" style="background: url('assets/images/page_breadcrumb-4.jpg') center/cover no-repeat;">
+    <!-- Overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+    <!-- Content -->
+    <div class="container position-relative" style="z-index: 2;">
+        <h2 class="fw-bold">Nominate Yourself Now!</h2>
+<p class="mt-3 fs-5 fw-semi-bold">Join an esteemed platform celebrating excellence.</p>
+
+        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3 fs-2 px-4" style="color: white; background-color: #ff0b0b !important">Nominate Now</a>
+    </div>
+</section>
 
 
     <!-- Footer -->

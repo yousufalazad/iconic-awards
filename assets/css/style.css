@@ -122,6 +122,9 @@ ul {
 }
 
 /*-------------------------------- navbar--------------*/
+.logo{
+  width: 70px;
+}
 .navbar {
   /* background-color: var(--iconic-brand) !important; */
   background-color: var(--iconic-brand) !important;
@@ -141,10 +144,21 @@ ul {
 .nav-link:hover {
   color: var(--iconic-gold);
 }
+
+.navbar-toggler {
+	padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+	font-size: var(--bs-navbar-toggler-font-size);
+	line-height: 1;
+	color: var(--iconic-white) !important;
+	background-color: var(--iconic-white) !important;
+	border: 1px solid var(--iconic-white) !important;
+	border-radius: var(--bs-navbar-toggler-border-radius);
+	transition: var(--bs-navbar-toggler-transition);
+}
 /*-------------------------------- slider--------------*/
 
 .carousel-item img {
-  height: 700px;
+  height: 250px;
   object-fit: cover;
 }
 /*-------------------------------- Introduction--------------*/
@@ -228,7 +242,7 @@ ul.nomination-apply-list li::before {
 }
 /*-------------------------------- All Pages Breadcrumb --------------*/
 .page_breadcrumb {
-  background: url("../../assets/images/page_breadcrumb-1.jpg") no-repeat center
+  background: url("../../assets/images/page_breadcrumb-3.jpg") no-repeat center
     center;
   background-size: cover;
   padding: 20px 0;
@@ -435,3 +449,64 @@ ul.nomination-apply-list li::before {
   font-size: 14px;
   color: #b0b0b0;
 }
+.made-by a{
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+
+@media (min-width: 640px) {
+  .logo {
+    width: 70px;
+  }
+
+  .carousel-item img {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+/* Only if you want different size for 768px */
+@media (min-width: 768px) {
+  .logo {
+    width: 80px;
+  }
+
+  .carousel-item img {
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+/* Example for even bigger screens */
+@media (min-width: 992px) {
+  .logo {
+    width: 100px;
+  }
+
+  .carousel-item img {
+    height: 430px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 110px;
+  }
+  .carousel-item img {
+    height: 530px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1500px) {
+  .logo {
+    width: 110px;
+  }
+  .carousel-item img {
+    height: 750px;
+    object-fit: cover;
+  }
+}
+

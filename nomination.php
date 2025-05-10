@@ -1,7 +1,7 @@
 <?php include 'partials/top.php'; ?>
 
 <!-- Breadcrumb Section -->
-<div class="page_breadcrumb bg-light">
+<div class="page_breadcrumb bg-light" style="background: url('assets/images/page_breadcrumb-1.jpg') no-repeat center center; background-size: cover;">
     <div class="container">
         <div class="d-flex flex-column align-items-center py-5">
             <h1 class="fw-bold">Nomination</h1>
@@ -18,7 +18,7 @@
 <section id="nomination" class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="section-title fw-bold mb-3">Call for Nominations !!</h2>
+            <h2 class="section-title fw-bold mb-3">Call for Nominations!!</h2>
             <p class="fs-5 ">Nominations are open to both onshore (Australia-based) and offshore (international) applicants.</p>
         </div>
 
@@ -42,9 +42,9 @@
                 <div class="col-md-12 py-3">
                     <h2 class="section-title text-center fw-bold mb-3">Nomination Process</h2>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 py-3 py-md-0">
                     <div class="p-4 card shadow-md rounded-3 h-100">
-                        <h4 class="fw-bold mb-2">Onshore (Australia-Based) Applicants</h4>
+                        <h4 class="fw-bold mb-2 ">Onshore (Australia-Based) Applicants</h4>
                         <ul class="ps-3 event-details-list">
                             <li> Must reside in Australia for at least 3 years</li>
                             <li> Self or third-party nominations accepted</li>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 py-3 py-md-0">
                     <div class="p-4 card shadow-md rounded-3 h-100">
                         <h4 class="fw-bold mb-2">Offshore (International) Applicants</h4>
                         <ul class="ps-3 event-details-list">
@@ -69,9 +69,9 @@
             </div>
 
 
-            <div class="row py-5">
+            <div class="row py-0 py-md-4">
                 <!-- How to Nominate -->
-                <div class="col-md-6">
+                <div class="col-md-6 py-3 py-md-0">
                     <div class="p-4 card shadow-md rounded-3 h-100">
                         <h4 class="fw-bold mb-2">How to Nominate?</h4>
                         <ul class="ps-3 event-details-list">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <!-- Application Fee -->
-                <div class="col-md-6">
+                <div class="col-md-6 py-3 py-md-0">
                     <div class="p-4 card shadow-md rounded-3 h-100">
                         <h4 class="fw-bold mb-2">Application Fee for Awardees</h4>
                         <ul class="ps-3 event-details-list">
@@ -108,8 +108,8 @@
     <!-- Content -->
     <div class="container position-relative" style="z-index: 2;">
         <h2 class="fw-bold">Submit Your Nomination Today!</h2>
-        <p class="mt-3 fs-5 fw-bold">Be part of a prestigious recognition platform.</p>
-        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3">Nomination Registration</a>
+        <p class="mt-3 fs-5 fw-semi-bold">Be part of a prestigious recognition platform.</p>
+        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3 fs-2 px-4" style="color: white; background-color: #ff0b0b !important">Register Now</a>
     </div>
 </section>
 

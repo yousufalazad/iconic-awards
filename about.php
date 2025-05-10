@@ -1,7 +1,8 @@
 <?php include 'partials/top.php'; ?>
 
 <!-- Breadcrumb Section -->
-<div class="page_breadcrumb bg-light">
+
+<div class="page_breadcrumb bg-light" style="background: url('assets/images/page_breadcrumb-4.jpg') no-repeat center center; background-size: cover;">
     <div class="container">
         <div class="d-flex flex-column align-items-center py-5">
             <h1 class="fw-bold">About Us</h1>
@@ -25,7 +26,7 @@
             </div>
             <!-- About Content -->
             <div class="col-md-6">
-                <h2 class="section-title">About Us</h2>
+                <h2 class="section-title pt-5 pt-md-0">About Us</h2>
                 <p style="text-align: justify;">
                     <strong>Welcome to Iconic Awards — Recognising Leadership, Elevating Futures</strong><br>
                     Proudly presented by <strong>Iconic Trade Australia</strong>, a trusted Australian event organisation with a remarkable legacy of delivering impactful, community-focused experiences, the <strong>Iconic Awards Australia</strong> is the new home of one of the most distinguished honours in business and leadership—the <strong>International Iconic Leadership Awards Australia</strong>.

@@ -28,7 +28,7 @@
             <!-- Deadlines & Bank -->
             <div class="row py-3">
                 <!-- How to Nominate -->
-                <div class="col-md-6">
+                <div class="col-md-6 py-3 py-md-0">
                     <div class="p-4 card shadow-md rounded-3 h-100">
                         <h4 class="fw-bold mb-2">Key Deadlines:</h4>
                         <ul class="mb-3 ps-3 nomination-apply-list">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <!-- Application Fee -->
-                <div class="col-md-6">
+                <div class="col-md-6 py-3 py-md-0">
                     <div class="p-4 card shadow-md rounded-3 h-100">
                         <h4 class="fw-bold mb-2">Bank Information:</h4>
                         <ul class="mb-3 ps-3 nomination-apply-list">
@@ -66,7 +66,7 @@
     <div class="container position-relative" style="z-index: 2;">
         <h2 class="fw-bold">Experience the Future of Economic Collaboration</h2>
         <p class="mt-3 fs-5 fw-bold">Join us at  International Iconic Leadership Award Australia 2025 for impactful discussions, networking, and innovation.</p>
-        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3">Register Now</a>
+        <a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" class="btn btn-warning mt-3 fs-2 px-4" style="color: white; background-color: #ff0b0b !important">Join Now</a>
     </div>
 </section>
 

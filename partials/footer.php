@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-md-12 text-center text-md-start">
                 <h5 class="footer-title">INTERNATIONAL ICONIC LEADERSHIP AWARDS</h5>
-                <p class="footer-subtitle">AUSTRALIA | 19th September 2025</p>
+                <p class="footer-subtitle">VIC 3030, AUSTRALIA | 19 September 2025</p>
             </div>
         </div>
         <div class="row align-items-center">
@@ -16,14 +16,14 @@
             <!-- Middle: Links -->
             <div class="col-md-3 pt-5 pt-md-0 text-center text-md-start">
                 <ul class="footer-links">
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="https://forms.gle/TEVYS4VDPpoy1Xcy7" target="_blank" >Register</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
             <div class="col-md-3  pb-3 pb-md-0 text-center text-md-start">
                 <ul class="footer-links">
-                    <li><a href="#">Award</a></li>
-                    <li><a href="#">Nomination</a></li>
+                    <li><a href="awards.php">Award</a></li>
+                    <li><a href="nomination.php">Nomination</a></li>
                 </ul>
             </div>
 
@@ -42,7 +42,7 @@
             </div>
 
             <div class="col-md-6 text-center text-md-end">
-                <p class="made-by">Developed by <span class="">Azoncode Ltd.</span></p>
+                <p class="made-by">Developed by <a href="https://azoncode.co.uk/" target="_blank"><span class="">Azoncode UK</span></a></p>
             </div>
         </div>
     </div>
